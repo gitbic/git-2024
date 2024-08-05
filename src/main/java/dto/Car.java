@@ -11,4 +11,5 @@ import java.math.BigDecimal;
 public class Car {
     String model;
     BigDecimal price;
+    Color color;
 }
