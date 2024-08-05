@@ -1,5 +1,6 @@
 package dto;
 
+import enums.EngineType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -12,4 +13,5 @@ public class Car {
     String model;
     BigDecimal price;
     Color color;
+    EngineType engineType;
 }
