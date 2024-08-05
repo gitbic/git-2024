@@ -14,4 +14,5 @@ public class Car {
     BigDecimal price;
     Color color;
     EngineType engineType;
+    Engine engine;
 }
